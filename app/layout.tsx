@@ -1,9 +1,8 @@
 "use client";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import { usePathname } from "next/navigation";
-
-
 
 export default function RootLayout({
   children,
@@ -18,6 +17,9 @@ export default function RootLayout({
         </HideNavbarOnAuth>
         {children}
       </body>
+      <HideNavbarOnAuth>
+        <Footer />
+      </HideNavbarOnAuth>
     </html>
   );
 }
@@ -25,7 +27,8 @@ export default function RootLayout({
 // Componente pequeño y reutilizable
 function HideNavbarOnAuth({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const isAuthPage = pathname?.startsWith("/login") || pathname?.startsWith("/register");
+  const isAuthPage =
+    pathname?.startsWith("/login") || pathname?.startsWith("/register");
 
   if (isAuthPage) return null;
   return <>{children}</>;
