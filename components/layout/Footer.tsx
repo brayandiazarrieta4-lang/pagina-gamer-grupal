@@ -9,9 +9,9 @@ export default function Footer() {
             transition-all duration-500 hover:scale-105
             backdrop-blur-xl border border-white/10 '>
         <div className='text-center py-4'>
-            <Link href='' target='_blank' className='text-purple-800 btn btn-link'>Privacy</Link>
+            <Link href='https://gamingstoreym-55uyorh6b-yeiner-morenos-projects.vercel.app/privacy' target='_blank' className='text-purple-800 btn btn-link'>Privacy</Link>
             <span> | </span>
-            <Link href='' target='_blank' className='text-purple-800 btn btn-link'>Terms</Link>
+            <Link href='https://gamingstoreym-55uyorh6b-yeiner-morenos-projects.vercel.app/terms' target='_blank' className='text-purple-800 btn btn-link'>Terms</Link>
             <span> | </span>
             <Link href='mailto:Roads<yostingabriel036@gmail.com>' className='text-purple-800 btn btn-link'>Contact</Link>
             <p className='text-blue-900 text-ms'>Copyright &copy; {current_year}, GamingStore LLC, All Rights Reserved</p>
