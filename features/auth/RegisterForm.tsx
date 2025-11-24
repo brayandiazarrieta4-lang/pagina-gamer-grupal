@@ -24,8 +24,8 @@ export default function RegisterForm() {
           <div className="bg-black/90 border-2 border-purple-600/60 rounded-xl shadow-2xl p-8 mt-5 md:p-10 backdrop-blur-xl shadow-purple-600/20">
             {/* Título épico */}
             <h1
-              className="text-4xl md:text-5xl font-black text-transparent bg-clip-text 
-                         bg-linear-to-r from-purple-500 to-purple-700 mb-8 text-center tracking-wider"
+              className="text-4xl md:text-5xl font-black bg-clip-text 
+                         bg-linear-to-rtext-neon-purple text-glow-purple text-purple-300 mb-8 text-center tracking-wider"
             >
               CREAR CUENTA
             </h1>
@@ -86,7 +86,7 @@ export default function RegisterForm() {
             </form>
             <div className="flex items-center gap-4 my-6">
               <div className="flex-1 h-px bg-purple-800/40"></div>
-              <span className="text-purple-500 text-sm font-semibold">
+              <span className="text-neon-purple text-glow-purple text-purple-300 text-sm font-semibold">
                 O REGÍSTRATE CON
               </span>
               <div className="flex-1 h-px bg-purple-800/40"></div>
@@ -120,7 +120,7 @@ export default function RegisterForm() {
                 Ya tienes una cuenta?{" "}
                 <a
                   href="/login"
-                  className="text-purple-500 hover:text-purple-400 font-bold underline underline-offset-4"
+                  className="text-neon-purple text-glow-purple text-purple-300 hover:text-purple-400 font-bold underline underline-offset-4"
                 >
                   INICIAR SESION
                 </a>
@@ -130,7 +130,7 @@ export default function RegisterForm() {
 
           {/* Footer gamer */}
           <div className="mt-8 text-center">
-            <p className="text-purple-800/60 text-xs font-mono tracking-widest">
+            <p className="text-purple-800/60 text-xs font-mono mb-5 tracking-widest">
               © 2025 ULTIMATE GAMING PLATFORM | READY PLAYER ONE
             </p>
           </div>

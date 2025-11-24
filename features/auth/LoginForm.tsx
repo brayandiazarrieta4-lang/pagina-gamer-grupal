@@ -28,8 +28,8 @@ export default function LoginForm() {
           >
             {/* Título con estilo gamer */}
             <h1
-              className="text-4xl md:text-5xl font-black text-transparent bg-clip-text 
-                         bg-linear-to-r from-purple-500 to-purple-700 mb-8 text-center tracking-wider"
+              className="text-4xl md:text-5xl font-black bg-clip-text text-neon-purple text-glow-purple text-purple-300 
+                         bg-linear-to-r  mb-8 text-center tracking-wider"
             >
               INICIAR SESION
             </h1>
@@ -63,7 +63,7 @@ export default function LoginForm() {
                 />
               </div>
 
-              {/* Botón GAMER full rojo fijo (sin cambio de color en hover) */}
+              {/* Botón GAMER */}
               <button
                 type="submit"
                 className="w-full bg-purple-600 text-white font-bold text-lg py-4 rounded-lg
@@ -77,7 +77,7 @@ export default function LoginForm() {
             {/* División visual */}
             <div className="flex items-center gap-4 my-6">
               <div className="flex-1 h-px bg-purple-800/40"></div>
-              <span className="text-purple-500 text-sm font-semibold">
+              <span className="text-neon-purple text-glow-purple text-purple-300 tracking-wider  text-sm font-semibold">
                 O CONTINÚA CON
               </span>
               <div className="flex-1 h-px bg-purple-800/40"></div>
@@ -120,7 +120,7 @@ export default function LoginForm() {
                 Eres nuevo?{" "}
                 <a
                   href="/register"
-                  className="text-purple-500 hover:text-purple-400 font-bold underline underline-offset-4"
+                  className="text-neon-purple text-glow-purple text-purple-300 tracking-wider hover:text-purple-400 font-bold underline underline-offset-4"
                 >
                   CREAR CUENTA
                 </a>

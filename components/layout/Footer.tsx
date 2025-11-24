@@ -12,9 +12,8 @@ export default function Footer() {
             <span> | </span>
             <Link href='https://gamingstoreym-55uyorh6b-yeiner-morenos-projects.vercel.app/terms' target='_blank' className='text-neon-purple text-glow-purple btn btn-link'>Terms</Link>
             <span> | </span>
-            <Link href='mailto:Roads<yostingabriel036@gmail.com>' className='text-neon-purple text-glow-purple btn btn-link'>Contact</Link>
-            <p className='text-blue-900 text-ms'>Copyright &copy; {current_year}, GamingStore LLC, All Rights Reserved</p>
-
+            <Link href='/contact' className='text-neon-purple text-glow-purple btn btn-link'>Contact</Link>
+            <p className='text-neon-white text-glow-white text-ms'>Copyright &copy; {current_year}, GamingStore LLC, All Rights Reserved</p>
 
         </div>
     </div>
